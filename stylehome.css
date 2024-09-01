@@ -21,9 +21,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(158, 10, 10);
+    background-color: #c70000;
     padding: 15px 20px;
     color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
 }
 
@@ -54,7 +55,7 @@ body {
 }
 
 .navbar-links ul li a:hover {
-    color: #00bcd4;
+    color: #efefef;
 }
 
 .navbar-links ul li a::after {
@@ -62,7 +63,7 @@ body {
     display: block;
     width: 0;
     height: 2px;
-    background: #00bcd4;
+    background: #efefef;
     transition: width 0.3s;
     position: absolute;
     bottom: -5px;
@@ -138,7 +139,7 @@ body {
 .menu h1 {
     text-align: center; 
     justify-content: center; 
-    color: #c20000;
+    color: #c70000;
     margin-top: 30px;
 }
 
@@ -150,11 +151,15 @@ body {
 
 .menu ul li {
     text-align: center; 
-    background-color: rgb(158, 10, 10);
+    background-color: #c70000;
     margin: 15px;
     padding: 5px;
     border-radius: 5px;
-    box-shadow: 3px 3px 5px rgb(158, 10, 10);}
+    box-shadow: 3px 3px 5px rgb(71, 65, 58);}
+
+.menu ul li:hover {
+    background-color: #000000;
+    transition: 0.5s;}
 
 .menu ul li a {
     text-decoration: none;
@@ -166,33 +171,33 @@ body {
 
 .container-start-end { 
     text-align: center;
-    color: #fff;
+    color: #c70000;
     text-decoration: none;
-    margin-top: 30px;} 
-
-
-.start a {
-    color: #f9f9f9;
-    text-decoration: white;
-    background-color: #910000;
-    padding: 5px;
-    width: 30%;
-    border-radius: 5px;
+    margin-top: 30px;
+    display: flex; 
+    align-items:center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #efefef;
 }
 
 .end a {
-    color: #f9f9f9;
+    color: #efefef;
     text-decoration: white;
-    background-color: #910000;
+    background-color: #c70000;
     padding: 5px;
     width: 30%;
     border-radius: 5px;
-    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.end {
+    margin: 20px;
 }
 
 .products {
     padding: 20px;
-    background-color: #c20e0e;
+    background-color: #c70000;
     text-align: center;
     border-radius: 10px;
     margin-bottom: 5px;
@@ -236,12 +241,11 @@ body {
 
 .product-item a {
     text-decoration: none;
-    color: #efefef;
+    color: #ffffff;
 }
 
 .product-item button {
-    background-color: #af0000;
-    color: #fff;
+    background-color: #c70000;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
@@ -250,11 +254,11 @@ body {
 }
 
 .product-item button:hover {
-    background-color: #555;
+    background-color: #c70000;
 }
 
 footer {
-    background-color: rgb(158, 10, 10);
+    background-color: #c70000;
     color: #fff;
     text-align: center;
     padding: 15px 0;
@@ -282,7 +286,7 @@ footer {
         width: 100%;
         flex-direction: column;
         align-items: center;
-        background-color: #ff0e0e;
+        background-color: #c70000a2;
         position: absolute;
         top: 60px;
         left: 0;
@@ -315,3 +319,30 @@ footer {
         text-decoration: none; 
         list-style-type: none;}
 }
+
+.container-start-end { 
+    text-align: center;
+    color: #c70000;
+    text-decoration: none;
+    margin-top: 30px;
+    /* display: inline;  */
+    align-items:center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #efefef;
+}
+
+.end a {
+    color: #c70000;
+    text-decoration: white;
+    background-color: #efefef;
+    padding: 5px;
+    width: 30%;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.end {
+    margin: 20px;
+}
+
